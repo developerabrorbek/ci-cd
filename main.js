@@ -13,5 +13,5 @@ app.all("/*splat", (req, res) => {
 });
 
 app.listen(7700, () => {
-  console.log(`listening on ${7700}`);
+  console.log(`listening on port ${7700}`);
 });
