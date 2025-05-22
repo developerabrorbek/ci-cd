@@ -12,6 +12,6 @@ app.all("/*splat", (req, res) => {
   });
 });
 
-app.listen(4000, () => {
-  console.log(`listening on ${4000}`);
+app.listen(7700, () => {
+  console.log(`listening on ${7700}`);
 });
